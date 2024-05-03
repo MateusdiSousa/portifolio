@@ -10,7 +10,6 @@ function App() {
     switch (currentSection) {
       case 'home':
         return <Home />
-        break;
       case 'contato':
         return <Contato />
     }
@@ -19,7 +18,7 @@ function App() {
   return (
     <body className="bg-main-color">   
       <Navbar setCurrentSection={setCurrentSection}/> 
-      <div className="mx-20">
+      <div className="px-5 sm:px-7 md:px-9 lg:px-10">
       {renderSection()}
       </div>
     </body>

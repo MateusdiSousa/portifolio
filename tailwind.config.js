@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         'main-color': '#D9AB73',
-        'line-color': '#8C5946',
+        'second-color': '#8C5946',
       },
       backgroundImage: {
         'avatar' : "url(public/picrewme.png)"

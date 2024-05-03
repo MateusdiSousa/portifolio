@@ -11,16 +11,17 @@ export function ProjLIst() {
         nome: string
         desc: string
         tecnologias: string[]
-        img : string
+        img: string
     }
 
 
     const [projeto, setProjeto] = useState<Projeto>(
         {
-            nome: 'S.O.S API', desc: `Service Out System SOS
-
-        É um sistema de ordem de serviços com o objetivo principal de informar computadores com mau funcionamento dentro do campus FATEC prof. Jessen Vidal e também navegar de forma dinâmica pelo mapa da FATEC.`, tecnologias: [flask, html, css, sqlalchemy]
-        , img: `public/sosapi.png`}
+            nome: 'S.O.S API', desc: `Service Out System SOS É um sistema de ordem de serviços com o objetivo principal 
+            de informar computadores com mau funcionamento dentro do campus FATEC prof. Jessen Vidal e também navegar 
+            de forma dinâmica pelo mapa da FATEC.`, tecnologias: [flask, html, css, sqlalchemy],
+            img: `public/sosapi.png`
+        }
     )
 
 
@@ -54,11 +55,11 @@ export function ProjLIst() {
                 {/* linha */}
                 <div className=" h-96 border-4  border-line-color mx-40"></div>
 
-                
-            <div className="items-center justify-center" >
-                <img src="public/sosapi.png" alt="" className="mb-8 " />
-                <button></button>
-            </div>
+
+                <div className="items-center justify-center" >
+                    <img src="public/sosapi.png" alt="" className="mb-8 " />
+                    <button></button>
+                </div>
             </div>
         </>
 
